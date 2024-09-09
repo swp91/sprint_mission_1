@@ -1,0 +1,42 @@
+.nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1120px;
+  height: 70px;
+}
+
+@media (max-width: 1919px) {
+  .nav_bar {
+    margin: 0 200px;
+  }
+}
+
+.nav_logobox {
+  display: flex;
+  align-items: center;
+}
+
+.nav_title {
+  font-size: 50px;
+  font-family: "ROKAF Sans";
+  font-weight: bold;
+  font-size: 1.625rem;
+  color: #3691ff;
+  margin-left: 10px;
+}
+
+.nav_btnbox {
+}
+
+.nav_loginbtn {
+  padding: 16px 40px;
+  font-size: 1rem;
+  font-family: "Pretendard";
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: #3691ff;
+  cursor: pointer;
+}
