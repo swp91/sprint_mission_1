@@ -40,3 +40,39 @@
   background-color: #3691ff;
   cursor: pointer;
 }
+
+.main_banner {
+  height: 540px;
+  background-color: #cfe5ff;
+  position: relative;
+}
+
+.banner_box {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+}
+
+.banner_title_box {
+  font-family: "Pretendard";
+}
+
+.banner_title {
+  color: #374151;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin: 50px 0 40px 0;
+}
+
+.banner_btn {
+  padding: 18px 125px;
+  border: none;
+  font-size: 1.25rem;
+  color: white;
+  background-color: #3691ff;
+  white-space: nowrap;
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
