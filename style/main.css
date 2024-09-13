@@ -80,11 +80,12 @@
   cursor: pointer;
 }
 
-/* 중간 아이템 부분 */
+/* 홈페이지 섹션 부분 */
 .main_section {
   display: flex;
   flex-direction: column;
   font-family: "Pretendard";
+  margin-bottom: 130px;
 }
 
 .main_section > div {
@@ -140,4 +141,25 @@
 .search_textbox span,
 .search_textbox p {
   text-align: right;
+}
+
+.bottom_section {
+  height: 540px;
+  background-color: #cfe5ff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bottom_box {
+  font-family: "Pretendard";
+  font-weight: bold;
+  font-size: 2.5rem;
+  display: flex;
+}
+
+.bottom_textbox {
+  display: flex;
+  align-items: center;
+  line-height: 1.4;
 }
