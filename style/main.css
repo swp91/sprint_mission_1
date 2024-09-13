@@ -111,21 +111,33 @@
   line-height: 1.2;
 }
 
-.hotitem_section {
+.hotitem_section,
+.search_section,
+.register_section {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 130px 0;
 }
 
-.hotitem_box {
+.hotitem_box,
+.search_box,
+.register_box {
   display: flex;
   background-color: #fcfcfc;
 }
 
-.hotitem_textbox {
+.hotitem_textbox,
+.search_textbox,
+.register_textbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 60px 0 50px;
+}
+
+.search_textbox h2,
+.search_textbox span,
+.search_textbox p {
+  text-align: right;
 }
