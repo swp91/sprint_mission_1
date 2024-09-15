@@ -10,26 +10,28 @@
 
 <body>
   <div id="layout">
-    <header>
+    <header class="nav_wrapper">
       <nav class="nav_bar">
         <div class="nav_logobox">
-          <img src="/img/pandalogo.jpg" alt="">
-          <h1 class="nav_title">판다마켓</h1>
+          <a href="/"><img src="/img/pandalogo.jpg" alt=""></a>
+          <a href="/">
+            <h1 class="nav_title">판다마켓</h1>
+          </a>
         </div>
         <div class="nav_btnbox">
-          <button class="nav_loginbtn">로그인</button>
+          <a href="/pages/login.html"><button class="nav_loginbtn">로그인</button></a>
         </div>
       </nav>
     </header>
-    <main>
+    <main class="main_wrapper">
       <div class="main_banner">
         <div class="banner_box">
           <div class="banner_title_box">
             <h2 class="banner_title">일상의 모든 물건을<br> 거래해 보세요</h2>
-            <button class="banner_btn">구경하러 가기</button>
+            <a href="/pages/items.html"><button class="banner_btn">구경하러 가기</button></a>
           </div>
           <div>
-            <img src="/img/main_panda.jpg" alt="배너이미지">
+            <img src="/img/Img_home_top.png" alt="배너이미지">
           </div>
         </div>
       </div>
@@ -69,12 +71,30 @@
           <div class="bottom_textbox">
             <h2>믿을 수 있는<br>판다마켓 중고 거래</h2>
           </div>
-          <div><img src="/img/bottom_panda.jpg" alt=""></div>
+          <div><img src="/img/Img_home_bottom.png" alt=""></div>
         </div>
       </section>
     </main>
     <footer>
-      <div></div>
+      <div class="main_footer">
+        <div class="footer_copy">
+          <p>&copy; codeit - 2024</p>
+        </div>
+        <div class="footer_links">
+          <a href="/pages/privacy.html">Privacy Policy</a>
+          <a href="/pages/faq.html">FAQ</a>
+        </div>
+        <div class="footer_social">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="/img/ic_facebook.png"
+              alt="페이스북"></a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><img src="/img/ic_twitter.png"
+              alt="트위터"></a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><img src="/img/ic_youtube.png"
+              alt="유튜브"></a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="/img/ic_instagram.png"
+              alt="인스타"></a>
+        </div>
+      </div>
     </footer>
   </div>
 </body>

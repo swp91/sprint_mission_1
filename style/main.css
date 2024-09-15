@@ -1,4 +1,12 @@
 /* 상단 바 */
+.nav_wrapper {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  z-index: 100;
+  background-color: #fff;
+}
+
 .nav_bar {
   display: flex;
   align-items: center;
@@ -28,9 +36,6 @@
   margin-left: 10px;
 }
 
-.nav_btnbox {
-}
-
 .nav_loginbtn {
   padding: 16px 40px;
   font-size: 1rem;
@@ -43,6 +48,10 @@
 }
 
 /* 배너부분 */
+.main_wrapper {
+  padding-top: 70px;
+}
+
 .main_banner {
   height: 540px;
   background-color: #cfe5ff;
@@ -156,10 +165,34 @@
   font-weight: bold;
   font-size: 2.5rem;
   display: flex;
+  height: 397px;
 }
 
 .bottom_textbox {
   display: flex;
   align-items: center;
   line-height: 1.4;
+}
+
+/* 푸터부분 */
+
+.main_footer {
+  height: 160px;
+  background-color: #111827;
+  display: flex;
+  padding: 30px 400px 0px;
+  justify-content: space-between;
+  font-family: "Pretendard";
+  font-weight: right;
+  font-size: 1rem;
+}
+.footer_copy {
+  color: #9ca3af;
+}
+.footer_links {
+  color: #e5e7eb;
+}
+.footer_social {
+  display: flex;
+  gap: 10px;
 }
